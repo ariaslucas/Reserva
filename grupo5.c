@@ -153,7 +153,7 @@ reserva dato;
           p=fopen(reservas,"r");//Se abre el archivo en modo lectura
 while(feof(p)==0)
 {
-c=fgetc(p);
+dato=fgetc(p);
 if (feof(p)==0)
 fscanf(p,"%s,%d,%d,%d,%d\n\n" ,dato.nombre,dato.hora,dato.actual.dia,dato.actual.mes,dato.actual.anio);
 
